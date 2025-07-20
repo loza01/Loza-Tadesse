@@ -87,7 +87,17 @@
 		      <!-- To Top Button -->
           <a href="index.html#top" class="up-btn"><i class="fa fa-chevron-up"></i></a>
           
-          <section style="max-width: 800px; margin: 10px auto; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #333; line-height: 1.6;">
+          <style>
+            @media (max-width: 480px) {
+              section {
+                max-width: 90% !important;  /* make it relative width on small screens */
+                margin: 20px auto !important;
+                padding: 0 15px;  /* add horizontal padding */
+              }
+            }
+          </style>
+          
+          <section style="max-width: 600px; margin: 40px auto; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #333; line-height: 1.6; padding: 0 10px;">
             <h2 style="color: #cccc2c; font-size: 28px; margin-bottom: 15px;">
               Currently, I’m a <span style="color:#cccc2c;"> Product Owner </span><span style="color:#0F969C;">- </span><span style="color:#cccc2c;">Tech-Focused</span>
             </h2>
