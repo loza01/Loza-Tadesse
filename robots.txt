@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://loza01.github.io/Loza-Tadesse/sitemap.xml
